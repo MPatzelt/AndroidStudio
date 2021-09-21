@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChangePrice">
+
+    <TextView android:id="@+id/text_cp_heading"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="18dp"
+        android:text="@string/text_cp_heading"/>
+
+    <Space android:layout_height="10dp"
+        android:layout_width="match_parent"/>
+
+    <View android:layout_height="0.5dp"
+        android:layout_width="fill_parent"
+        android:background="#000000"/>
+
+    <Space android:layout_height="10dp"
+        android:layout_width="match_parent"/>
+
+    <EditText
+        android:id="@+id/edit_product_code"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/edit_product_code" />
+
+    <EditText
+        android:id="@+id/price_change"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/price_change" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="changePrice"
+        android:text="@string/change_price" />
+
+    <TextView android:id="@+id/text_cp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_cp" />
+
+</LinearLayout>

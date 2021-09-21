@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Big Decimal Calculator</string>
+    <string name="edit_port">Enter port number</string>
+    <string name="edit_host">Enter host domain name</string>
+    <string name="button_connect">Connect to Server</string>
+    <string name="edit_operation">Enter operation</string>
+    <string name="edit_bd1">Enter First Number</string>
+    <string name="edit_bd2">Enter Second Number</string>
+    <string name="button_send">Send</string>
+    <string name="text_comm_heading"><b><u>Calculate an operation between two big decimal numbers</u>
+    </b>\n\nEnter the (abbreviated) operation in the  first box, followed by two big decimal numbers in the last two boxes.
+        \nThen press the button.\n\nNote that a inputting \"quit\" causes the
+        app to disconnect\nfrom the server.</string>
+</resources>

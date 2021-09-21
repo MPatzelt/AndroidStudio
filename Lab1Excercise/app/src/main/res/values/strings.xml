@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Prelimary Lab Excercise 1</string>
+    <string name="edit_infile">Enter the name of the input file</string>
+    <string name="button_process">Process</string>
+    <string name="text_main">Text messages here.</string>
+    <string name="text_main2"></string>
+</resources>

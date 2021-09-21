@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Fibonnaci</string>
+    <string name="edit_infile">Enter an integer value.</string>
+    <string name="button_fr">Fibonnaci Number</string>
+    <string name="text_main">F(n) = F(n-2) + F(n-1)</string>
+</resources>
